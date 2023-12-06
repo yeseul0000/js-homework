@@ -12,32 +12,32 @@
 
 1. email 정규표현식을 사용한 조건처리
 
-```
+```js
 //   - false면 해당 input에 is--invalid 추가
-			node.classList.remove('is--invalid')
+node.classList.remove("is--invalid");
 //  - true면 해당 input에 is--invalid 제거
-			node.classList.add('is--invalid')
+node.classList.add("is--invalid");
 ```
 
 2. pw 정규표현식을 사용한 validation
 
-```
+```js
 //   - false면 해당 input에 is--invalid 추가
-			node.classList.remove('is--invalid')
+node.classList.remove("is--invalid");
 //  - true면 해당 input에 is--invalid 제거
-			node.classList.add('is--invalid')
+node.classList.add("is--invalid");
 ```
 
 3. 로그인 버튼을 클릭시 user.id의 값과 input의 값을 비교
 
-```
-value === user.id
+```js
+value === user.id;
 ```
 
 4. 두 값이 일치 한다면 다음 페이지(welcome.html)로 이동
 
-```
-window.location.href = 'welcome.html'
+```js
+window.location.href = "welcome.html";
 ```
 
 ## 구현 계획
