@@ -42,4 +42,6 @@ window.location.href = "welcome.html";
 
 ## 구현 계획
 
-1.
+1. emailReg(text), pwReg(text)는 정규표현식과 사용자 입력값이 같으면 true, 아니면 false를 반환한다. 그 반환값이 false면 해당 input에 is--valid 클래스를 추가하고, true면 제거하는 함수를 만든다.
+2. input 값을 가져와서 user.id와 user.pw와 동일한지 확인하는 함수를 만든다.
+3. 2에서 두 값이 모두 일치 한다면 다음 페이지(welcome.html)로 이동하는 함수를 만든다.
